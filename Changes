@@ -1,5 +1,8 @@
 Changelog for POE::Component::IRC::Plugin::QueryDNS
 ===================================================
 
+0.04	Tue Apr 15 12:31:43 BST 2008
+	- Kwalitee fixes.
+
 0.02	Wed Mar  5 16:51:49 GMT 2008
 	- Initial CPAN Release

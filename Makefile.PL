@@ -1,7 +1,9 @@
+use strict;
 use inc::Module::Install;
 name 'POE-Component-IRC-Plugin-QueryDNS';
 author 'Chris Williams <chris@bingosnet.co.uk>';
 version_from 'lib/POE/Component/IRC/Plugin/QueryDNS.pm';
+abstract_from 'lib/POE/Component/IRC/Plugin/QueryDNS.pm';
 license 'perl';
 build_requires 'Test::More' => 0.47;
 requires 'warnings::compat' => 0 if $] < 5.006;
