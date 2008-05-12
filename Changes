@@ -1,6 +1,9 @@
 Changelog for POE::Component::IRC::Plugin::QueryDNS
 ===================================================
 
+0.06	Mon May 12 14:49:48 BST 2008
+	- Removed kwalitee test and added license information.
+
 0.04	Tue Apr 15 12:31:43 BST 2008
 	- Kwalitee fixes.
 

@@ -8,7 +8,7 @@ use POE::Component::IRC::Plugin qw(:ALL);
 use POE::Component::IRC::Common qw(irc_ip_is_ipv4);
 use vars qw($VERSION);
 
-$VERSION = '0.04';
+$VERSION = '0.06';
 
 sub new {
   my $package = shift;
@@ -225,6 +225,8 @@ Some examples:
 Chris C<BinGOs> Williams <chris@bingosnet.co.uk>
 
 =head1 LICENSE
+
+Copyright C<(c)> Chris Williams.
 
 This program is free software; you can redistribute it and/or modify it under the same terms as Perl itself.
 
