@@ -1,15 +1,32 @@
-Changelog for POE::Component::IRC::Plugin::QueryDNS
-===================================================
+==============================
+2011-05-02 11:01:34 +0100 1.02
+==============================
 
-1.00	Fri Apr 17 21:52:22 BST 2009
-	- Import to git repo
-	- bump to stable release
+  commit 0d104e16c71ebf8fd387590efc9a86706a89a4a6
+  Author: Chris 'BinGOs' Williams <chris@bingosnet.co.uk>
+  Date:   Mon May 2 11:01:34 2011 +0100
+  
+    Add POD::Coverage exceptions
 
-0.06	Mon May 12 14:49:48 BST 2008
-	- Removed kwalitee test and added license information.
+  commit c88fe929fcae1cd5246d805138076e8fa42629e0
+  Author: Chris 'BinGOs' Williams <chris@bingosnet.co.uk>
+  Date:   Mon May 2 10:49:20 2011 +0100
+  
+    Bump to 1.02
 
-0.04	Tue Apr 15 12:31:43 BST 2008
-	- Kwalitee fixes.
+  commit 17fcdc5e82037a1b730285b040bb11c327a40ce3
+  Author: Chris 'BinGOs' Williams <chris@bingosnet.co.uk>
+  Date:   Mon May 2 10:43:51 2011 +0100
+  
+    Dzilification of the distribution, requires
+    Dist::Zilla::PluginBundle::BINGOS mmmkay
 
-0.02	Wed Mar  5 16:51:49 GMT 2008
-	- Initial CPAN Release
+  commit 804f9f7ce7f02c83c59c9604d9ecf312714abb6d
+  Author: Chris 'BinGOs' Williams <chris@bingosnet.co.uk>
+  Date:   Mon May 2 10:30:25 2011 +0100
+  
+    Add Net::IP as a prereq and use it instead of PoCo::IRC::Common 
+
+====================================
+End of changes in the last 1825 days
+====================================
