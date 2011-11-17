@@ -2,36 +2,36 @@
 use strict;
 use warnings;
 
-BEGIN { require v5.6.0; }
+use 5.006000;
 
 use ExtUtils::MakeMaker 6.30;
 
 
 
 my %WriteMakefileArgs = (
-  'ABSTRACT' => 'A POE::Component::IRC plugin for IRC based DNS queries',
-  'AUTHOR' => 'Chris Williams <chris@bingosnet.co.uk>',
-  'BUILD_REQUIRES' => {
-    'Test::More' => '0.47'
+  "ABSTRACT" => "A POE::Component::IRC plugin for IRC based DNS queries",
+  "AUTHOR" => "Chris Williams <chris\@bingosnet.co.uk>",
+  "BUILD_REQUIRES" => {
+    "Test::More" => "0.47"
   },
-  'CONFIGURE_REQUIRES' => {
-    'ExtUtils::MakeMaker' => '6.30'
+  "CONFIGURE_REQUIRES" => {
+    "ExtUtils::MakeMaker" => "6.30"
   },
-  'DISTNAME' => 'POE-Component-IRC-Plugin-QueryDNS',
-  'EXE_FILES' => [],
-  'LICENSE' => 'perl',
-  'NAME' => 'POE::Component::IRC::Plugin::QueryDNS',
-  'PREREQ_PM' => {
-    'Net::IP' => '0',
-    'POE' => '1.004',
-    'POE::Component::Client::DNS' => '1',
-    'POE::Component::IRC' => '5.7',
-    'POE::Component::IRC::Common' => '5.16',
-    'POE::Component::IRC::Plugin' => '0.1'
+  "DISTNAME" => "POE-Component-IRC-Plugin-QueryDNS",
+  "EXE_FILES" => [],
+  "LICENSE" => "perl",
+  "NAME" => "POE::Component::IRC::Plugin::QueryDNS",
+  "PREREQ_PM" => {
+    "Net::IP::Minimal" => 0,
+    "POE" => "1.004",
+    "POE::Component::Client::DNS" => 1,
+    "POE::Component::IRC" => "5.7",
+    "POE::Component::IRC::Common" => "5.16",
+    "POE::Component::IRC::Plugin" => "0.1"
   },
-  'VERSION' => '1.02',
-  'test' => {
-    'TESTS' => 't/*.t'
+  "VERSION" => "1.04",
+  "test" => {
+    "TESTS" => "t/*.t"
   }
 );
 

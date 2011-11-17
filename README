@@ -3,7 +3,7 @@ NAME
     IRC based DNS queries
 
 VERSION
-    version 1.02
+    version 1.04
 
 SYNOPSIS
       use strict;

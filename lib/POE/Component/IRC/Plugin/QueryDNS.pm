@@ -1,6 +1,6 @@
 package POE::Component::IRC::Plugin::QueryDNS;
-BEGIN {
-  $POE::Component::IRC::Plugin::QueryDNS::VERSION = '1.02';
+{
+  $POE::Component::IRC::Plugin::QueryDNS::VERSION = '1.04';
 }
 
 #ABSTRACT: A POE::Component::IRC plugin for IRC based DNS queries
@@ -10,7 +10,7 @@ use warnings;
 use POE;
 use POE::Component::Client::DNS;
 use POE::Component::IRC::Plugin qw(:ALL);
-use Net::IP qw[ip_is_ipv4];
+use Net::IP::Minimal qw[ip_is_ipv4];
 
 sub new {
   my $package = shift;
@@ -120,7 +120,7 @@ POE::Component::IRC::Plugin::QueryDNS - A POE::Component::IRC plugin for IRC bas
 
 =head1 VERSION
 
-version 1.02
+version 1.04
 
 =head1 SYNOPSIS
 
